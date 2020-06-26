@@ -1,0 +1,39 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+a,
+a:hover {
+  transition: all 0.4s ease-in-out;
+}
+.main {
+  height: calc(100% - 6.5rem);
+}

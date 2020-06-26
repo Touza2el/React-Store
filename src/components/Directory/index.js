@@ -10,13 +10,13 @@ const Directory = (props) => {
       <div className="container">
         <div className="wrap">
           <div className="item" style={{ backgroundImage: `url(${shopmen})` }}>
-            <a href="#">shop men</a>
+            <a href="/">shop men</a>
           </div>
           <div
             className="item"
             style={{ backgroundImage: `url(${shopwomen})` }}
           >
-            <a href="#">shop women</a>
+            <a href="/">shop women</a>
           </div>
         </div>
       </div>

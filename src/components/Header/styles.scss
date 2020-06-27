@@ -1,5 +1,5 @@
 .header {
-  height: 6.5rem;
+  height: 7rem;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   .container {
     height: 100%;
@@ -7,12 +7,14 @@
   .wrap {
     height: 100%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    .logo {
-      h3 {
+    .logo,
+    .registration-link {
+      h4 {
         margin: 0;
         color: #444;
-        text-transform: capitalize;
+        text-transform: uppercase;
       }
     }
   }

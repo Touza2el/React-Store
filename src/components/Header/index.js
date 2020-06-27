@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./styles.scss";
 
 const Header = (props) => {
@@ -7,7 +9,14 @@ const Header = (props) => {
       <div className="container">
         <div className="wrap">
           <div className="logo">
-            <h3>shopOne</h3>
+            <Link to="/">
+              <h4>shoppingfor</h4>
+            </Link>
+          </div>
+          <div className="registration-link">
+            <Link to="/registration">
+              <h4>register</h4>
+            </Link>
           </div>
         </div>
       </div>

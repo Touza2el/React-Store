@@ -7,7 +7,7 @@ class Registration extends Component {
     return (
       <div className="registration">
         <div className="container">
-          <h2>Registration</h2>
+          <h1>Registration Component</h1>
         </div>
       </div>
     );

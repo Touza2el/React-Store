@@ -12,8 +12,6 @@ class SignIn extends Component {
       <div className="sign-in">
         <div className="sign-in-content">
           <h3 className="sign-in-title">login</h3>
-        </div>
-        <div className="form-container">
           <form onSubmit={this.handleSubmit}>
             <div className="social-sign-in">
               <Button onClick={signInWithGoogle}>Sign In With Google</Button>

@@ -5,9 +5,7 @@ import SignIn from "./../../components/SignIn";
 function Login(props) {
   return (
     <div className="login">
-      <div className="container">
-        <SignIn />
-      </div>
+      <SignIn />
     </div>
   );
 }
